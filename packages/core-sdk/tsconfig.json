@@ -3,8 +3,9 @@
   "compilerOptions": {
     "resolveJsonModule": true,
     "module": "ESNext",
+    "moduleResolution": "node",
     "outDir": "dist",
-    "types": ["mocha"],
+    "types": ["mocha", "node"],
     "lib": ["dom", "es2015"]
   },
   "include": ["src/**/*", "test/**/*"]
